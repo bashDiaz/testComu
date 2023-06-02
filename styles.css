@@ -1,0 +1,33 @@
+*{
+    font-family: 'oswald', Courier, monospace;
+}
+td{
+    width: 200px; 
+    margin-top: 20px;   
+}
+
+.info {
+    display: flex;
+}
+button {
+    background-color: rgb(187, 41, 72);
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+}
+button:active {
+    background-color: rgb(207, 46, 81);
+}
+body{
+width: 100vw;
+ display: inline-flex;
+ justify-content: center;
+}
+.body{
+    width: 800px;
+}
+input {
+    padding: 8px;
+    width: 530px;
+    margin: 5px;
+}

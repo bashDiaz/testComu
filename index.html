@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Gateway</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="body">
+        <h1> Datos del contador</h1>
+    <div>
+        <input id="device" value="BE7A00000000057D" />
+        <button>Seleccionar</button>
+    </div>
+    <br>
+    <div class="info">
+        <div>
+            <table>
+                <tr>
+                    <td>Voltaje A-N</td>
+                    <td ><span id="van">0</span> V</td>
+                </tr>
+                <tr>
+                    <td>Voltaje B-N</td>
+                    <td><span id="vbn">0</span> V</td>
+                </tr>
+                <tr>
+                    <td>Voltaje C-N</td>
+                    <td ><span id="vcn">0</span> V</td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <td>Voltaje A-B</td>
+                    <td><span id="vab">0</span>  V</td>
+                </tr>
+                <tr>
+                    <td>Voltaje B-C</td>
+                    <td><span id="vbc">0</span>  V</td>
+                </tr>
+                <tr>
+                    <td>Voltaje C-A</td>
+                    <td><span id="vca">0</span>  V</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>Potencia A-N</td>
+                    <td><span id="pan">0</span> KW</td>
+                </tr>
+                <tr>
+                    <td>Potencia A-N</td>
+                    <td ><span id="pbn">0</span> KW</td>
+                </tr>
+                <tr>
+                    <td>Potencia B-N</td>
+                    <td><span id="pcn">0</span> KW</td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <td>Corriente A-N</td>
+                    <td><span id="ian">0</span> A</td>
+                </tr>
+                <tr>
+                    <td>Corriente B-N</td>
+                    <td><span id="ibn">0</span> A</td>
+                </tr>
+                <tr>
+                    <td>Corriente C-N</td>
+                    <td><span id="icn">0</span> A</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br />
+
+    <p id="DATE">Ultimo Envio:</p>
+    <p id="SNR">SNR:</p>
+    <p id="RSSI">RSSI:</p>
+    <p ID="COUNTER">Contador pq.:</p>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+    </style>
+  
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js"></script>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
